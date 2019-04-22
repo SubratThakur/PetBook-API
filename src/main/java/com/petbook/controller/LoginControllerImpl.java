@@ -16,7 +16,7 @@ public class LoginControllerImpl implements LoginController{
 
 	@RequestMapping(value = "/signup", method = RequestMethod.POST, produces = "application/json")
 	public User signUp() {
-		User jiggii = new User("jigyashamarodia@gmail.com", "Jiiggiii","8800890565",false, new Date());
+		User jiggii = new User("jigyashamarodia@gmail.com", "Jiiggyyy","8800890565",false, new Date());
         jiggii.setCreatedBy("subrat");
         return jiggii;
 	}
